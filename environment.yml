@@ -1,0 +1,9 @@
+name: smoke
+channels:
+  - conda-forge
+dependencies:
+  - numpy           # Core libraries for numerical operations
+  - pandas          # Data analysis library
+  - matplotlib      # Plotting library
+  - jupyterlab      # JupyterLab for notebooks
+  - pathlib         # Reproducibility of paths across machines'
